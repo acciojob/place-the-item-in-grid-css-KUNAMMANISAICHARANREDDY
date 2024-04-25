@@ -1,2 +1,28 @@
 
 /* Your CSS Code here. */
+.holder{
+	width:200px;
+	
+	display:grid;
+	grid-template-row:repeat(2,100px);
+	grid-template-column:repeat(2,100px);
+	grid-template-areas:
+		"a b"
+	"c d";
+}
+.item-1{
+	border:2px soild black;
+	grid-area:a;
+}
+.item-2{
+	border:2px soild black;
+	grid-area:b;
+}
+.item-3{
+	border:2px soild black;
+	grid-area:c;
+}
+.item-4{
+	border:2px soild black;
+	grid-area:d;
+}
